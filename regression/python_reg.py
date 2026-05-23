@@ -7,7 +7,7 @@ df_analysis_regression = df_analysis.copy()
 # df_analysis_regression.head(5)
 df_analysis_regression['TotalCharges'].dropna()
 
-corelation of numeric only
+# corelation of numeric only
 
 # Calculate the correlation matrix for the regression analysis
 corr_mat_reg = df_analysis_regression.select_dtypes(include=[np.number]).corr()
