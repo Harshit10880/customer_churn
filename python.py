@@ -84,7 +84,3 @@ y = datapre['Churn']              # The target
 # 2. Split the data (80% for training, 20% for testing)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-
-# 3. Initialize and Train the Model
-model = LogisticRegression()
-model.fit(X_train, y_train)
